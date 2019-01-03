@@ -4,9 +4,49 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
+    <title>Bootstrap-Portfolio</title>
+	<link rel="stylesheet" type="text/css" href="https://meyerweb.com/eric/tools/css/reset/reset.css">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
-    
+	<header class="container-fluid sticky-top p-0 bg-white">
+		<div class="container p-0">
+  			<div class="row align-items-center w-100 h-100 no-gutters">
+  				<div class="heading col-sm-6 col-md-4 col-lg-4 text-white w-100 text-center ml-md-3 mr-md-4 mx-lg-0" id="name">
+  					<h2 class="font-weight-bold">Josh Deitz</h2>
+  				</div>
+  				<div class="col-sm-6 col-md-7 col-lg-8 w-100 ml-md-3 ml-lg-0">
+  					<nav class="justify-content-md-end justify-content-center navbar h-100 w-100 p-0 bg-white" role="navigation">
+                        <a class="nav-link nav-item" style="border-right: 1px solid #777777;" href="index.html">About</a>
+                        <a class="nav-link nav-item" style="border-right: 1px solid #777777;" href="portfolio.html">Portfolio</a>
+                        <a class="nav-link nav-item" href="contact.html">Contact</a>
+  					</nav>
+  				</div>
+  			</div>
+		</div>	
+	</header>
+	<div class="main-content position-relative px-4 py-5 bg-white my-5 mx-3 my-md-3 my-sm-3 mx-lg-auto my-lg-3 my-md-3">
+		<div class="row">
+			<div class="col">
+				<h2 class="heading name font-weight-bold">Contact</h2>
+				<hr>
+			</div>
+		</div>
+		<span>Name</span>
+		<input type="text" name="nametext" placeholder="John Smith" />
+		<span>E-mail</span>
+		<input type="text" name="nametext" placeholder="example@gmail.com" />
+		<span>Message</span>
+		<textarea name="Message"></textarea>
+		<div class="row">
+			<div class="col-md-6 col-lg-3">
+				<button class="btn text-white">Submit</button>
+			</div>
+		</div>	
+	</div>
+	<footer class="fixed-bottom text-center align-self-center w-100 pt-3 pb-2">
+		<p>Copyright &copy;</p>
+	</footer>	
 </body>
 </html>
